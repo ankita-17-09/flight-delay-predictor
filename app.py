@@ -66,8 +66,6 @@ def get_airline_code(display_with_code):
 airline_display_options = [get_airline_display(code) for code in model_airline_codes]
 
 # ==================== AIRPORT NAMES ====================
-App.py
-
 AIRPORT_CITY_MAP = {
     'ABE': 'Allentown', 'ABI': 'Abilene', 'ABQ': 'Albuquerque', 'ABR': 'Aberdeen',
     'ABY': 'Albany', 'ACK': 'Nantucket', 'ACT': 'Waco', 'ACV': 'Arcata/Eureka',
@@ -163,7 +161,6 @@ AIRPORT_CITY_MAP = {
     'WYS': 'West Yellowstone', 'XNA': 'Fayetteville', 'XWA': 'Williston', 'YAK': 'Yakutat',
     'YKM': 'Yakima', 'YUM': 'Yuma'
 }
-
 
 def get_airport_display(code):
     city = AIRPORT_CITY_MAP.get(code, code)
