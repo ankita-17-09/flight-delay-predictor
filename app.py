@@ -245,7 +245,7 @@ else:
     st.info(f"💡 Tip: {day_advice}")
 
 # Predict Button
-if st.button("🔮 Predict Delay Risk", type="primary", use_container_width=True):
+if st.button(" Predict Delay Risk", type="primary", use_container_width=True):
     
     try:
         # Encode inputs
